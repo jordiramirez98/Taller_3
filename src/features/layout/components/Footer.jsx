@@ -14,9 +14,22 @@ export const Footer = () => {
       }}
     >
       <Box sx={{ textAlign: 'center' }}>
+
         <Typography variant="body2">
-          &copy;Sistema Compras - JORDY RAMIREZ.
+          &copy; Sistema Compras - JORDY RAMIREZ.
         </Typography>
+
+        <Typography variant="body2">
+          <a 
+            href="https://github.com/jordiramirez98/Taller_3"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "white" }}
+          >
+            Ver repositorio en GitHub
+          </a>
+        </Typography>
+
       </Box>
     </Box>
   )
